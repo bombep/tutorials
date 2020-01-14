@@ -109,6 +109,7 @@ Create a file called `module.config.php` under
 ```php
 namespace Album;
 
+use Zend\Router\Http\Segment;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
